@@ -18,7 +18,7 @@ html
 section,
 footer
 {
-    padding: 2% 20vw;
+    padding: 2% 8%;
 }
 
 
@@ -251,11 +251,14 @@ body
 {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
 }
 .footer li
 {
-  padding: 1rem;
+  padding: .5rem 0;
 }
 .footer li a
 {
@@ -283,12 +286,3 @@ body
 }
 
 
-@media only screen and (max-width: 1000px) {
-     section,
-     .footer
-     {
-
-            padding: 0 12vw;
-        
-     }
-  }
